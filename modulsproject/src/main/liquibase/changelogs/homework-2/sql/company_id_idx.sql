@@ -1,0 +1,1 @@
+CREATE INDEX companies_id_idx ON Company (id);

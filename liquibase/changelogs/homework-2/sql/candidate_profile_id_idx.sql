@@ -1,0 +1,1 @@
+CREATE INDEX candidate_profile_id_idx ON Candidate (profile_id);

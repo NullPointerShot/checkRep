@@ -1,0 +1,1 @@
+CREATE INDEX job_offer_idx ON Job_offer (candidate_id, vacancy_id);

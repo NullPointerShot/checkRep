@@ -1,0 +1,1 @@
+CREATE INDEX candidate_to_skill_idx ON Candidate_to_skill (candidate_id, skill_id);

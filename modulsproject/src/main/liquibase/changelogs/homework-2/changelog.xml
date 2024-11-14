@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+      http://www.liquibase.org/xml/ns/pro
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd"
+        logicalFilePath="homework-2">
+
+    <changeSet id="homework-2-role" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/role.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-profile" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/profile.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-company" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/company.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-skill" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/skill.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-candiidate" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/candidate.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-recruiiter" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/recruiter.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-vacancy" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/vacancy.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-candidate_to_skill" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/candidate_to_skill.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-vacancy_to_skill" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/vacancy_to_skill.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-job_offer" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/job_offer.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-feedback" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/feedback.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-vacancy_to_company_id_idx" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/vacancy_to_company_id_idx.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-skill_parent_id_idx" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/skill_parent_id_idx.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-candidate_profile_id_idx" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/candidate_profile_id_idx.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-company_id_idx" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/company_id_idx.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+
+    <changeSet id="homework-2-create-index-candidate_to_skill_idx" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/candidate_to_skill_idx.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-job_offer_idx" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/job_offer_idx.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-feedback_idx" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/feedback_idx.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-vacancy_to_skill_idx" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/vacancy_to_skill_idx.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-recruiter_profile_id_idx" author="Kirill Burdin">
+        <sqlFile encoding="utf8" path="sql/recruiter_profile_id_idx.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+</databaseChangeLog>

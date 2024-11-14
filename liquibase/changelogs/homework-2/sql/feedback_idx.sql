@@ -1,0 +1,1 @@
+CREATE INDEX feedback_idx ON Feedback (candidate_id, recruiter_id, vacancy_id);

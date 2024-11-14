@@ -1,0 +1,1 @@
+CREATE INDEX vacancy_company_id_idx ON Vacancy (company_id);

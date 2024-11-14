@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="liquibase">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/postgresql-42.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/liquibase-core-4.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

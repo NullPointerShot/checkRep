@@ -1,0 +1,1 @@
+CREATE INDEX vacancy_to_skill_idx ON Vacancy_to_skill (vacancy_id, skill_id);

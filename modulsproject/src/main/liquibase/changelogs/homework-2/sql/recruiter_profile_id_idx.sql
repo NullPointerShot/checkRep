@@ -1,0 +1,1 @@
+CREATE INDEX recruiter_profile_id_idx ON Recruiter (profile_id);

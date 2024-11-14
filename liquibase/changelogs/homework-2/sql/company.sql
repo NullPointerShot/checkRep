@@ -1,0 +1,5 @@
+CREATE TABLE Company (
+                         id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+                         name VARCHAR(255) NOT NULL,
+                         website VARCHAR(255)
+);

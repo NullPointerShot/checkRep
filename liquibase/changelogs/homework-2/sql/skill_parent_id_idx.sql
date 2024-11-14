@@ -1,0 +1,1 @@
+CREATE INDEX skill_parent_id_idx ON Skill (parent_id);
